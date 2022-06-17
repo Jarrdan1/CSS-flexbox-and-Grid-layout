@@ -1,0 +1,45 @@
+main{
+	padding: 50px;
+	background-color: whitesmoke;
+	width: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	align-items: center;
+}
+.columns{
+	padding: 25px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 60%;
+}
+.column{
+	flex: 33.33%;
+}
+p{
+	padding: 40px;
+	color: whitesmoke;
+}
+button{
+	background-color: #c2fbd7;
+	border-radius: 0px;
+	box-shadow:white;
+	color: green;
+	cursor: pointer;
+	display: block;
+	margin: 0 auto;
+}
+h2{
+	padding-left: 10px;
+	color: white;
+
+}
+div{
+
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
